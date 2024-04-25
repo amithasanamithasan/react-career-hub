@@ -23,7 +23,7 @@ useEffect(()=>{
         </div>
        <div className=" grid grid-cols-2 gap-3 ">
         {
-           jobs.slice(0,Datalength).map(job => <Job key={job.id } job={job}></Job>)
+           jobs.slice(0,Datalength).map(job => <Job key={job.id} job={job}></Job>)
         }
        </div>
        {/* 

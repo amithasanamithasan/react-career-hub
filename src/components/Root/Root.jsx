@@ -10,7 +10,10 @@ const Root = () => {
             <Header></Header>
             <Outlet></Outlet>
             </div>
+            <div className='max-l-6xl max-auto p-9 py-4'>
             <Footer></Footer>
+            </div>
+           
         </div>
     );
 };
